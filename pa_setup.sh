@@ -8,6 +8,10 @@ BRANCH="master"
 
 echo "🚀 Setting up GitHub Deployment for PythonAnywhere..."
 
+# 0. Global Git Config (Enable credential caching)
+echo "🔒 Enabling credential caching..."
+git config --global credential.helper store
+
 # 1. Create directory if not exists
 mkdir -p $PROJECT_DIR
 cd $PROJECT_DIR
