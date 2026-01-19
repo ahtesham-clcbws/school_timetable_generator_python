@@ -12,10 +12,13 @@ echo "🚀 Setting up GitHub Deployment for PythonAnywhere..."
 mkdir -p $PROJECT_DIR
 cd $PROJECT_DIR
 
-# 2. Initialize or Clone
+# 2. Initialize or Update Git
 if [ ! -d ".git" ]; then
-    echo "📦 Cloning repository from GitHub..."
-    git clone $GITHUB_URL .
+    echo "📦 Initializing Git in non-empty directory..."
+    git init
+    git remote add origin $GITHUB_URL
+    git fetch
+    git checkout -f $BRANCH
 else
     echo "📦 Repository already exists. Updating origin..."
     git remote set-url origin $GITHUB_URL
@@ -24,16 +27,26 @@ fi
 # 3. Create a quick deploy script
 cat <<EOF > deploy.sh
 #!/bin/bash
+PROJECT_DIR="$PROJECT_DIR"
+WSGI_FILE="/var/www/\${USER}_pythonanywhere_com_wsgi.py"
+
 echo "🚀 Pulling latest code from GitHub ($BRANCH)..."
-git pull origin $BRANCH
+cd \$PROJECT_DIR
+git fetch origin
+git reset --hard origin/$BRANCH
 
 echo "📦 Installing/Updating dependencies..."
 if [ -f "requirements.txt" ]; then
-    pip install -r requirements.txt
+    pip install --user -r requirements.txt
 fi
 
 echo "🔄 Reloading Web App..."
-pa_reload_webapp.py \${USER}.pythonanywhere.com
+if [ -f "\$WSGI_FILE" ]; then
+    touch "\$WSGI_FILE"
+    echo "✅ WSGI file touched for reload."
+else
+    pa_reload_webapp.py \${USER}.pythonanywhere.com || echo "⚠️ Could not reload automatically. Please reload manually in the Web tab."
+fi
 
 echo "✅ Done!"
 EOF
