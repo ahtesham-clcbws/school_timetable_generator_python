@@ -3,12 +3,12 @@
 # Run this script ONCE in your PythonAnywhere Bash Console to setup GitHub-based deployment.
 
 GITHUB_URL="https://github.com/ahtesham-clcbws/school_timetable_generator_python"
-PROJECT_DIR="/home/$USER/mysite" # Adjust if your site is elsewhere
+PROJECT_DIR="/home/$USER/mysite"
 BRANCH="master"
 
 echo "🚀 Setting up GitHub Deployment for PythonAnywhere..."
 
-# 1. Navigate to project directory
+# 1. Create directory if not exists
 mkdir -p $PROJECT_DIR
 cd $PROJECT_DIR
 
@@ -22,6 +22,8 @@ if [ ! -d ".git" ]; then
 else
     echo "📦 Repository already exists. Updating origin..."
     git remote set-url origin $GITHUB_URL
+    git fetch
+    git checkout -f $BRANCH
 fi
 
 # 3. Create a quick deploy script
@@ -45,7 +47,8 @@ if [ -f "\$WSGI_FILE" ]; then
     touch "\$WSGI_FILE"
     echo "✅ WSGI file touched for reload."
 else
-    pa_reload_webapp.py \${USER}.pythonanywhere.com || echo "⚠️ Could not reload automatically. Please reload manually in the Web tab."
+    # Fallback to reload script if available
+    pa_reload_webapp.py \${USER}.pythonanywhere.com 2>/dev/null || echo "⚠️ Could not reload automatically. Please reload manually in the Web tab."
 fi
 
 echo "✅ Done!"
