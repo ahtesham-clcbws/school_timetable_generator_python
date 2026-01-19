@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+timetable_progress.json
+timetable_snapshot.json
+*.log
+.vscode/
+.github/
+testing_old/
+oldFiles/
+tt-gen-old-files/
