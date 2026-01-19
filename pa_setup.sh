@@ -1,44 +1,47 @@
 #!/bin/bash
 # e:/python_timetable_generation/pa_setup.sh
-# Run this script ONCE in your PythonAnywhere Bash Console to setup Push-to-Deploy.
+# Run this script ONCE in your PythonAnywhere Bash Console to setup GitHub-based deployment.
 
+GITHUB_URL="https://github.com/ahtesham-clcbws/school_timetable_generator_python"
 PROJECT_DIR="/home/$USER/mysite" # Adjust if your site is elsewhere
-REPO_DIR="/home/$USER/timetable_gen.git"
+BRANCH="master"
 
-echo "🚀 Setting up Git Deployment for PythonAnywhere..."
+echo "🚀 Setting up GitHub Deployment for PythonAnywhere..."
 
-# 1. Create a bare repository
-mkdir -p $REPO_DIR
-cd $REPO_DIR
-git init --bare
+# 1. Navigate to project directory
+mkdir -p $PROJECT_DIR
+cd $PROJECT_DIR
 
-# 2. Create the post-receive hook
-cat <<EOF > hooks/post-receive
+# 2. Initialize or Clone
+if [ ! -d ".git" ]; then
+    echo "📦 Cloning repository from GitHub..."
+    git clone $GITHUB_URL .
+else
+    echo "📦 Repository already exists. Updating origin..."
+    git remote set-url origin $GITHUB_URL
+fi
+
+# 3. Create a quick deploy script
+cat <<EOF > deploy.sh
 #!/bin/bash
-GIT_MAIN_DIR="$PROJECT_DIR"
-echo "📦 Code received... Deploying to \$GIT_MAIN_DIR"
+echo "🚀 Pulling latest code from GitHub ($BRANCH)..."
+git pull origin $BRANCH
 
-# Checkout the code to the project directory
-git --work-tree=\$GIT_MAIN_DIR --git-dir=$REPO_DIR checkout -f main
-
-# Install/Update dependencies
-cd \$GIT_MAIN_DIR
+echo "📦 Installing/Updating dependencies..."
 if [ -f "requirements.txt" ]; then
     pip install -r requirements.txt
 fi
 
-# Reload the PythonAnywhere web app
 echo "🔄 Reloading Web App..."
-touch /var/www/\${USER}_pythonanywhere_com_wsgi.py 2>/dev/null || pa_reload_webapp.py \${USER}.pythonanywhere.com
+pa_reload_webapp.py \${USER}.pythonanywhere.com
 
-echo "✅ Deployment complete!"
+echo "✅ Done!"
 EOF
 
-chmod +x hooks/post-receive
+chmod +x deploy.sh
 
 echo "--------------------------------------------------"
-echo "✅ Server setup complete!"
-echo "Now, run this command on your LOCAL machine (inside e:/python_timetable_generation):"
-echo "git remote add pythonanywhere $USER@ssh.pythonanywhere.com:$REPO_DIR"
+echo "✅ Setup complete!"
+echo "To deploy latest changes from GitHub, just run:"
+echo "cd $PROJECT_DIR && ./deploy.sh"
 echo "--------------------------------------------------"
-echo "Then deploy anytime with: git push pythonanywhere main"
