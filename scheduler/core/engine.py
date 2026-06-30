@@ -142,9 +142,9 @@ class TimetableEngine:
                         violation = model.NewBoolVar(f'ct_first_viol_{cid}_{day}_{pid}_{lid}')
                         # violation is 1 if class teacher teaches pid but is_ct_first is 0
                         model.Add(violation >= assign[(cid, lid, pid)] - is_ct_first)
-                        objective_terms.append(-2000 * violation)
+                        objective_terms.append(-80 * violation)
                 
-                objective_terms.append(5000 * is_ct_first)
+                objective_terms.append(300 * is_ct_first)
 
         # Constraint F: Daily count limits (soft constraints, allows breaking is_back_to_back)
         for cid, cdata in self.classes.items():
