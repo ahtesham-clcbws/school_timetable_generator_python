@@ -88,12 +88,11 @@ class TimetableEngine:
                         t_min = max(0, target - 1)
                         t_max = target + 1
                     
-                    model.Add(actual_load >= t_min)
                     model.Add(actual_load <= t_max)
-                    
+
                     # Absolute deviation: dev = |actual_load - target|
                     # If actual_load is in [t_min, t_max], we want to minimize distance to target
-                    dev = model.NewIntVar(0, max(abs(t_min - target), abs(t_max - target)), f'dev_{cid}_{lid}')
+                    dev = model.NewIntVar(0, target, f'dev_{cid}_{lid}')
                     model.Add(dev >= actual_load - target)
                     model.Add(dev >= target - actual_load)
                     
@@ -102,18 +101,23 @@ class TimetableEngine:
                     
                 elif lesson.subject_id in minor_subjects:
                     # Allowed: [1, target] if target > 0. Lowering allowed, but not below 1.
+                    model.Add(actual_load <= target)
                     if target > 0:
-                        model.Add(actual_load >= 1)
-                        model.Add(actual_load <= target)
+                        minor_viol = model.NewBoolVar(f'minor_viol_{cid}_{lid}')
+                        model.Add(actual_load >= 1 - minor_viol)
+                        objective_terms.append(-50 * minor_viol)
                     else:
                         model.Add(actual_load == 0)
                     
                     objective_terms.append(100 * actual_load)
                     
                 else:
-                    # Other subjects (standard equality constraint)
-                    model.Add(actual_load == target)
+                    # Other subjects (soft equality constraint: max target, but don't crash if less)
+                    model.Add(actual_load <= target)
+                    dev = model.NewIntVar(0, target, f'dev_other_{cid}_{lid}')
+                    model.Add(dev >= target - actual_load)
                     objective_terms.append(100 * actual_load)
+                    objective_terms.append(-10 * dev)
 
         # Constraint E: Class Teacher First-Period Preference (70% Target / Soft Constraint)
         for cid, cdata in self.classes.items():
