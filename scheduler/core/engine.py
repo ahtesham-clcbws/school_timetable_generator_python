@@ -136,10 +136,13 @@ class TimetableEngine:
                 is_ct_first = model.NewBoolVar(f'is_ct_first_{cid}_{day}')
                 model.Add(is_ct_first <= sum(assign[(cid, lid, first_pid)] for lid in ct_lessons))
                 
-                # Lock implication: class teacher cannot teach later periods on 'day' unless they teach the first period
+                # Soft lock implication: penalize if class teacher teaches later periods on 'day' but NOT the first period
                 for pid in sorted_pids[1:]:
                     for lid in ct_lessons:
-                        model.Add(assign[(cid, lid, pid)] <= is_ct_first)
+                        violation = model.NewBoolVar(f'ct_first_viol_{cid}_{day}_{pid}_{lid}')
+                        # violation is 1 if class teacher teaches pid but is_ct_first is 0
+                        model.Add(violation >= assign[(cid, lid, pid)] - is_ct_first)
+                        objective_terms.append(-2000 * violation)
                 
                 objective_terms.append(5000 * is_ct_first)
 
