@@ -12,7 +12,11 @@ class TimetableHandler:
         classes = {}
         for c_data in laravel_data:
             cid = c_data['class_id']
-            c_obj = ClassData(id=cid, name=c_data.get('class_name', f'Class {cid}'))
+            c_obj = ClassData(
+                id=cid, 
+                name=c_data.get('class_name', f'Class {cid}'),
+                class_teacher_id=int(c_data['class_teacher_id']) if c_data.get('class_teacher_id') is not None else None
+            )
             
             # Periods
             for i, p_data in enumerate(c_data.get('periods', [])):
@@ -31,7 +35,7 @@ class TimetableHandler:
                 c_obj.periods_by_day[day].append(pid)
             
             c_obj.sort_periods()
-
+ 
             # Lessons
             for i, l_data in enumerate(c_data.get('lessons', [])):
                 lid = cid * 1000 + i + 1
@@ -39,7 +43,7 @@ class TimetableHandler:
                     id=lid,
                     class_id=cid,
                     subject_id=l_data['subject_id'],
-                    teacher_id=l_data['teacher_id'],
+                    teacher_id=int(l_data['teacher_id']) if l_data.get('teacher_id') is not None else None,
                     taught_per_week=l_data['taught_per_week'],
                     is_back_to_back=l_data['is_back_to_back']
                 )

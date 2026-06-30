@@ -2,6 +2,7 @@
 from dataclasses import dataclass, field
 from typing import List, Dict, Optional, Any
 from datetime import datetime
+from collections import defaultdict
 
 class TimeUtils:
     @staticmethod
@@ -46,6 +47,7 @@ class Lesson:
 class ClassData:
     id: int
     name: str
+    class_teacher_id: Optional[int] = None
     periods: Dict[int, Period] = field(default_factory=dict)
     lessons: Dict[int, Lesson] = field(default_factory=dict)
     periods_by_day: Dict[str, List[int]] = field(default_factory=dict)
