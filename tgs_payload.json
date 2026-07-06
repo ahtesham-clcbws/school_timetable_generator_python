@@ -1,0 +1,2820 @@
+[
+    {
+        "class_id": 1,
+        "lessons": [
+            {
+                "class_id": 1,
+                "subject_id": 1,
+                "teacher_id": 3,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 1,
+                "subject_id": 6,
+                "teacher_id": 3,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 1,
+                "subject_id": 2,
+                "teacher_id": 3,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 1,
+                "subject_id": 3,
+                "teacher_id": 3,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 1,
+                "subject_id": 16,
+                "teacher_id": 3,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 1,
+                "subject_id": 4,
+                "teacher_id": 3,
+                "taught_per_week": 3,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 1,
+                "subject_id": 5,
+                "teacher_id": 3,
+                "taught_per_week": 3,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 1,
+                "subject_id": 12,
+                "teacher_id": 3,
+                "taught_per_week": 2,
+                "is_back_to_back": true
+            }
+        ],
+        "periods": [
+            {
+                "class_id": 1,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "11:25",
+                "end_time": "12:00",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "11:25",
+                "end_time": "12:00",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "11:25",
+                "end_time": "12:00",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "11:25",
+                "end_time": "12:00",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "11:25",
+                "end_time": "12:00",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "12:00",
+                "end_time": "12:35",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "12:00",
+                "end_time": "12:35",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "12:00",
+                "end_time": "12:35",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "12:00",
+                "end_time": "12:35",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 1,
+                "start_time": "12:00",
+                "end_time": "12:35",
+                "period_day": "Friday"
+            }
+        ]
+    },
+    {
+        "class_id": 2,
+        "lessons": [
+            {
+                "class_id": 2,
+                "subject_id": 1,
+                "teacher_id": 4,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 2,
+                "subject_id": 6,
+                "teacher_id": 4,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 2,
+                "subject_id": 2,
+                "teacher_id": 4,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 2,
+                "subject_id": 3,
+                "teacher_id": 4,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 2,
+                "subject_id": 16,
+                "teacher_id": 4,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 2,
+                "subject_id": 4,
+                "teacher_id": 4,
+                "taught_per_week": 3,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 2,
+                "subject_id": 5,
+                "teacher_id": 4,
+                "taught_per_week": 3,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 2,
+                "subject_id": 12,
+                "teacher_id": 4,
+                "taught_per_week": 2,
+                "is_back_to_back": true
+            }
+        ],
+        "periods": [
+            {
+                "class_id": 2,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "11:25",
+                "end_time": "12:00",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "11:25",
+                "end_time": "12:00",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "11:25",
+                "end_time": "12:00",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "11:25",
+                "end_time": "12:00",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "11:25",
+                "end_time": "12:00",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "12:00",
+                "end_time": "12:35",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "12:00",
+                "end_time": "12:35",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "12:00",
+                "end_time": "12:35",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "12:00",
+                "end_time": "12:35",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 2,
+                "start_time": "12:00",
+                "end_time": "12:35",
+                "period_day": "Friday"
+            }
+        ]
+    },
+    {
+        "class_id": 8,
+        "lessons": [
+            {
+                "class_id": 8,
+                "subject_id": 18,
+                "teacher_id": 10,
+                "taught_per_week": 6,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 8,
+                "subject_id": 1,
+                "teacher_id": 9,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 8,
+                "subject_id": 2,
+                "teacher_id": 83,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 8,
+                "subject_id": 3,
+                "teacher_id": 84,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 8,
+                "subject_id": 6,
+                "teacher_id": 13,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 8,
+                "subject_id": 4,
+                "teacher_id": 11,
+                "taught_per_week": 3,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 8,
+                "subject_id": 5,
+                "teacher_id": 8,
+                "taught_per_week": 3,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 8,
+                "subject_id": 11,
+                "teacher_id": 5,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 8,
+                "subject_id": 13,
+                "teacher_id": 9,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 8,
+                "subject_id": 14,
+                "teacher_id": 84,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 8,
+                "subject_id": 17,
+                "teacher_id": 11,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            }
+        ],
+        "periods": [
+            {
+                "class_id": 8,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "11:25",
+                "end_time": "12:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "12:10",
+                "end_time": "12:40",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 8,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Monday"
+            }
+        ]
+    },
+    {
+        "class_id": 9,
+        "lessons": [
+            {
+                "class_id": 9,
+                "subject_id": 18,
+                "teacher_id": 10,
+                "taught_per_week": 6,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 9,
+                "subject_id": 1,
+                "teacher_id": 9,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 9,
+                "subject_id": 2,
+                "teacher_id": 83,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 9,
+                "subject_id": 3,
+                "teacher_id": 84,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 9,
+                "subject_id": 6,
+                "teacher_id": 13,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 9,
+                "subject_id": 4,
+                "teacher_id": 11,
+                "taught_per_week": 3,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 9,
+                "subject_id": 5,
+                "teacher_id": 8,
+                "taught_per_week": 3,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 9,
+                "subject_id": 11,
+                "teacher_id": 10,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 9,
+                "subject_id": 13,
+                "teacher_id": 9,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 9,
+                "subject_id": 14,
+                "teacher_id": 84,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 9,
+                "subject_id": 17,
+                "teacher_id": 11,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            }
+        ],
+        "periods": [
+            {
+                "class_id": 9,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "11:25",
+                "end_time": "12:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "12:10",
+                "end_time": "12:40",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 9,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Wednesday"
+            }
+        ]
+    },
+    {
+        "class_id": 10,
+        "lessons": [
+            {
+                "class_id": 10,
+                "subject_id": 18,
+                "teacher_id": 10,
+                "taught_per_week": 6,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 10,
+                "subject_id": 1,
+                "teacher_id": 9,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 10,
+                "subject_id": 2,
+                "teacher_id": 83,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 10,
+                "subject_id": 3,
+                "teacher_id": 84,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 10,
+                "subject_id": 6,
+                "teacher_id": 13,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 10,
+                "subject_id": 4,
+                "teacher_id": 11,
+                "taught_per_week": 3,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 10,
+                "subject_id": 5,
+                "teacher_id": 8,
+                "taught_per_week": 3,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 10,
+                "subject_id": 11,
+                "teacher_id": 10,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 10,
+                "subject_id": 13,
+                "teacher_id": 9,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 10,
+                "subject_id": 14,
+                "teacher_id": 84,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 10,
+                "subject_id": 17,
+                "teacher_id": 11,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            }
+        ],
+        "periods": [
+            {
+                "class_id": 10,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "11:25",
+                "end_time": "12:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "12:10",
+                "end_time": "12:40",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 10,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Wednesday"
+            }
+        ]
+    },
+    {
+        "class_id": 4,
+        "lessons": [
+            {
+                "class_id": 4,
+                "subject_id": 1,
+                "teacher_id": 10,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 4,
+                "subject_id": 2,
+                "teacher_id": 5,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 4,
+                "subject_id": 3,
+                "teacher_id": 5,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 4,
+                "subject_id": 4,
+                "teacher_id": 7,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 4,
+                "subject_id": 5,
+                "teacher_id": 8,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 4,
+                "subject_id": 6,
+                "teacher_id": 13,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 4,
+                "subject_id": 11,
+                "teacher_id": 7,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 4,
+                "subject_id": 12,
+                "teacher_id": 7,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 4,
+                "subject_id": 17,
+                "teacher_id": 7,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 4,
+                "subject_id": 13,
+                "teacher_id": 7,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 4,
+                "subject_id": 14,
+                "teacher_id": 5,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            }
+        ],
+        "periods": [
+            {
+                "class_id": 4,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "11:25",
+                "end_time": "12:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "12:10",
+                "end_time": "12:40",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 4,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Wednesday"
+            }
+        ]
+    },
+    {
+        "class_id": 5,
+        "lessons": [
+            {
+                "class_id": 5,
+                "subject_id": 1,
+                "teacher_id": 9,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 5,
+                "subject_id": 2,
+                "teacher_id": 83,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 5,
+                "subject_id": 3,
+                "teacher_id": 84,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 5,
+                "subject_id": 4,
+                "teacher_id": 7,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 5,
+                "subject_id": 5,
+                "teacher_id": 8,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 5,
+                "subject_id": 6,
+                "teacher_id": 13,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 5,
+                "subject_id": 11,
+                "teacher_id": 7,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 5,
+                "subject_id": 12,
+                "teacher_id": 11,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 5,
+                "subject_id": 17,
+                "teacher_id": 7,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 5,
+                "subject_id": 13,
+                "teacher_id": 7,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 5,
+                "subject_id": 14,
+                "teacher_id": 5,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            }
+        ],
+        "periods": [
+            {
+                "class_id": 5,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "11:25",
+                "end_time": "12:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "12:10",
+                "end_time": "12:40",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 5,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Wednesday"
+            }
+        ]
+    },
+    {
+        "class_id": 6,
+        "lessons": [
+            {
+                "class_id": 6,
+                "subject_id": 1,
+                "teacher_id": 9,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 6,
+                "subject_id": 2,
+                "teacher_id": 83,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 6,
+                "subject_id": 3,
+                "teacher_id": 84,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 6,
+                "subject_id": 4,
+                "teacher_id": 11,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 6,
+                "subject_id": 5,
+                "teacher_id": 8,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 6,
+                "subject_id": 6,
+                "teacher_id": 13,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 6,
+                "subject_id": 11,
+                "teacher_id": 5,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 6,
+                "subject_id": 12,
+                "teacher_id": 11,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 6,
+                "subject_id": 17,
+                "teacher_id": 7,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 6,
+                "subject_id": 13,
+                "teacher_id": 9,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 6,
+                "subject_id": 14,
+                "teacher_id": 5,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            }
+        ],
+        "periods": [
+            {
+                "class_id": 6,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "11:25",
+                "end_time": "12:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "12:10",
+                "end_time": "12:40",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 6,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Wednesday"
+            }
+        ]
+    },
+    {
+        "class_id": 7,
+        "lessons": [
+            {
+                "class_id": 7,
+                "subject_id": 1,
+                "teacher_id": 9,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 7,
+                "subject_id": 2,
+                "teacher_id": 83,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 7,
+                "subject_id": 3,
+                "teacher_id": 84,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 7,
+                "subject_id": 4,
+                "teacher_id": 11,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 7,
+                "subject_id": 5,
+                "teacher_id": 8,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 7,
+                "subject_id": 6,
+                "teacher_id": 13,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 7,
+                "subject_id": 11,
+                "teacher_id": 5,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 7,
+                "subject_id": 12,
+                "teacher_id": 11,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 7,
+                "subject_id": 17,
+                "teacher_id": 11,
+                "taught_per_week": 2,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 7,
+                "subject_id": 13,
+                "teacher_id": 9,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 7,
+                "subject_id": 14,
+                "teacher_id": 84,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            }
+        ],
+        "periods": [
+            {
+                "class_id": 7,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "07:50",
+                "end_time": "08:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "11:25",
+                "end_time": "12:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "11:40",
+                "end_time": "12:15",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "12:10",
+                "end_time": "12:40",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "12:15",
+                "end_time": "12:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 7,
+                "start_time": "12:50",
+                "end_time": "13:25",
+                "period_day": "Wednesday"
+            }
+        ]
+    },
+    {
+        "class_id": 3,
+        "lessons": [
+            {
+                "class_id": 3,
+                "subject_id": 1,
+                "teacher_id": 10,
+                "taught_per_week": 6,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 3,
+                "subject_id": 2,
+                "teacher_id": 5,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 3,
+                "subject_id": 3,
+                "teacher_id": 5,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 3,
+                "subject_id": 4,
+                "teacher_id": 7,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 3,
+                "subject_id": 5,
+                "teacher_id": 8,
+                "taught_per_week": 5,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 3,
+                "subject_id": 6,
+                "teacher_id": 13,
+                "taught_per_week": 4,
+                "is_back_to_back": true
+            },
+            {
+                "class_id": 3,
+                "subject_id": 11,
+                "teacher_id": 7,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 3,
+                "subject_id": 12,
+                "teacher_id": 7,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            },
+            {
+                "class_id": 3,
+                "subject_id": 17,
+                "teacher_id": 7,
+                "taught_per_week": 1,
+                "is_back_to_back": false
+            }
+        ],
+        "periods": [
+            {
+                "class_id": 3,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "08:30",
+                "end_time": "09:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "09:10",
+                "end_time": "09:50",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "09:50",
+                "end_time": "10:30",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "10:00",
+                "end_time": "10:40",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "10:40",
+                "end_time": "11:20",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "10:50",
+                "end_time": "11:25",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "11:25",
+                "end_time": "12:10",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "11:45",
+                "end_time": "12:20",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "11:45",
+                "end_time": "12:20",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "11:45",
+                "end_time": "12:20",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "11:45",
+                "end_time": "12:20",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "12:10",
+                "end_time": "12:40",
+                "period_day": "Friday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "12:20",
+                "end_time": "12:55",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "12:20",
+                "end_time": "12:55",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "12:20",
+                "end_time": "12:55",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "12:20",
+                "end_time": "12:55",
+                "period_day": "Thursday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "12:55",
+                "end_time": "13:30",
+                "period_day": "Monday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "12:55",
+                "end_time": "13:30",
+                "period_day": "Tuesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "12:55",
+                "end_time": "13:30",
+                "period_day": "Wednesday"
+            },
+            {
+                "class_id": 3,
+                "start_time": "12:55",
+                "end_time": "13:30",
+                "period_day": "Thursday"
+            }
+        ]
+    }
+]

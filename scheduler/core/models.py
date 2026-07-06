@@ -34,6 +34,8 @@ class Lesson:
     teacher_id: int
     taught_per_week: int
     is_back_to_back: bool
+    min_per_week: int = 0
+    max_per_week: int = 0
     original_taught_per_week: int = 0
     assigned_period_ids: List[int] = field(default_factory=list)
     daily_count: Dict[str, int] = field(default_factory=lambda: defaultdict(int))

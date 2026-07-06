@@ -39,13 +39,16 @@ class TimetableHandler:
             # Lessons
             for i, l_data in enumerate(c_data.get('lessons', [])):
                 lid = cid * 1000 + i + 1
+                taught = l_data['taught_per_week']
                 lesson = Lesson(
                     id=lid,
                     class_id=cid,
                     subject_id=l_data['subject_id'],
                     teacher_id=int(l_data['teacher_id']) if l_data.get('teacher_id') is not None else None,
-                    taught_per_week=l_data['taught_per_week'],
-                    is_back_to_back=l_data['is_back_to_back']
+                    taught_per_week=taught,
+                    is_back_to_back=l_data['is_back_to_back'],
+                    min_per_week=l_data.get('min_per_week', 0),
+                    max_per_week=l_data.get('max_per_week', taught)
                 )
                 c_obj.lessons[lid] = lesson
             
